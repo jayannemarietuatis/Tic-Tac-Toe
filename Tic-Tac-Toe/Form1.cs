@@ -1,10 +1,15 @@
 namespace Tic_Tac_Toe
 {
-    public partial class Form1 : Form
+    public partial class Gameform : Form
     {
-        public Form1()
+        public Gameform()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
