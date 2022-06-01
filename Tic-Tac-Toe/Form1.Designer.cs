@@ -38,6 +38,7 @@
             this.bttnRC3 = new System.Windows.Forms.Button();
             this.bttnRC2 = new System.Windows.Forms.Button();
             this.bttnRC1 = new System.Windows.Forms.Button();
+            this.ExitBttn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bttnRA1
@@ -131,6 +132,18 @@
             this.bttnRC1.TabIndex = 6;
             this.bttnRC1.UseVisualStyleBackColor = false;
             // 
+            // ExitBttn
+            // 
+            this.ExitBttn.BackColor = System.Drawing.Color.Transparent;
+            this.ExitBttn.Font = new System.Drawing.Font("Cascadia Code", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ExitBttn.Location = new System.Drawing.Point(407, 12);
+            this.ExitBttn.Name = "ExitBttn";
+            this.ExitBttn.Size = new System.Drawing.Size(94, 29);
+            this.ExitBttn.TabIndex = 9;
+            this.ExitBttn.Text = "Exit";
+            this.ExitBttn.UseVisualStyleBackColor = false;
+            this.ExitBttn.Click += new System.EventHandler(this.ExitBttn_Click);
+            // 
             // Gameform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -139,6 +152,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(522, 538);
+            this.Controls.Add(this.ExitBttn);
             this.Controls.Add(this.bttnRC3);
             this.Controls.Add(this.bttnRC2);
             this.Controls.Add(this.bttnRC1);
@@ -165,5 +179,6 @@
         private Button bttnRC3;
         private Button bttnRC2;
         private Button bttnRC1;
+        private Button ExitBttn;
     }
 }

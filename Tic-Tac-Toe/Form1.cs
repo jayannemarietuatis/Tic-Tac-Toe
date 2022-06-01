@@ -11,5 +11,10 @@ namespace Tic_Tac_Toe
         {
 
         }
+
+        private void ExitBttn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
