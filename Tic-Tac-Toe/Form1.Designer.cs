@@ -136,7 +136,7 @@
             // 
             this.ExitBttn.BackColor = System.Drawing.Color.Transparent;
             this.ExitBttn.Font = new System.Drawing.Font("Cascadia Code", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ExitBttn.Location = new System.Drawing.Point(407, 12);
+            this.ExitBttn.Location = new System.Drawing.Point(402, 12);
             this.ExitBttn.Name = "ExitBttn";
             this.ExitBttn.Size = new System.Drawing.Size(94, 29);
             this.ExitBttn.TabIndex = 9;
