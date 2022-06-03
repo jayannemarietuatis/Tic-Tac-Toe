@@ -136,6 +136,7 @@
             this.bttnRC1.Size = new System.Drawing.Size(94, 89);
             this.bttnRC1.TabIndex = 6;
             this.bttnRC1.UseVisualStyleBackColor = false;
+            this.bttnRC1.Click += new System.EventHandler(this.bttnRC1_Click);
             // 
             // ExitBttn
             // 
