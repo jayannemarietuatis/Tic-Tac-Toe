@@ -72,6 +72,7 @@
             this.bttnRA3.Size = new System.Drawing.Size(94, 89);
             this.bttnRA3.TabIndex = 2;
             this.bttnRA3.UseVisualStyleBackColor = false;
+            this.bttnRA3.Click += new System.EventHandler(this.bttnRA3_Click);
             // 
             // bttnRB3
             // 
