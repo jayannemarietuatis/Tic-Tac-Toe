@@ -159,7 +159,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(522, 538);
+            this.ClientSize = new System.Drawing.Size(552, 585);
             this.Controls.Add(this.ExitBttn);
             this.Controls.Add(this.bttnRC3);
             this.Controls.Add(this.bttnRC2);
