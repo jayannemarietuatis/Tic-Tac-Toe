@@ -26,5 +26,20 @@ namespace Tic_Tac_Toe
         {
             this.Close();
         }
+
+        private void bttnRA2_Click(object sender, EventArgs e)
+        {
+            if (player == true)
+            {
+                bttnRA2.Text = "X";
+                player = !player;
+            }
+            else
+            {
+                bttnRA2.Text = "O";
+                player = !player;
+            }
+            bttnRA2.Enabled = false;
+        }
     }
 }
