@@ -86,5 +86,20 @@ namespace Tic_Tac_Toe
             }
             bttnRB2.Enabled = false;
         }
+
+        private void bttnRB3_Click(object sender, EventArgs e)
+        {
+            if (player == true)
+            {
+                bttnRB3.Text = "X";
+                player = !player;
+            }
+            else
+            {
+                bttnRB3.Text = "O";
+                player = !player;
+            }
+            bttnRB3.Enabled = false;
+        }
     }
 }
