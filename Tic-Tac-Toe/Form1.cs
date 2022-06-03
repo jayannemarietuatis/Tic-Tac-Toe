@@ -24,12 +24,10 @@ namespace Tic_Tac_Toe
             player_turn++;
             results();
         }
-
         private void ExitBttn_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
         private void bttnRA2_Click(object sender, EventArgs e)
         {
             if (player == true)
@@ -46,7 +44,6 @@ namespace Tic_Tac_Toe
             player_turn++;
             results();
         }
-
         private void bttnRA3_Click(object sender, EventArgs e)
         {
             if (player == true)
@@ -63,7 +60,6 @@ namespace Tic_Tac_Toe
             player_turn++;
             results();
         }
-
         private void bttnRB1_Click(object sender, EventArgs e)
         {
             if (player == true)
@@ -80,7 +76,6 @@ namespace Tic_Tac_Toe
             player_turn++;
             results();
         }
-
         private void bttnRB2_Click(object sender, EventArgs e)
         {
             if (player == true)
@@ -97,7 +92,6 @@ namespace Tic_Tac_Toe
             player_turn++;
             results();
         }
-
         private void bttnRB3_Click(object sender, EventArgs e)
         {
             if (player == true)
@@ -114,7 +108,6 @@ namespace Tic_Tac_Toe
             player_turn++;
             results();
         }
-
         private void bttnRC1_Click(object sender, EventArgs e)
         {
             if (player == true)
@@ -131,7 +124,6 @@ namespace Tic_Tac_Toe
             player_turn++;
             results();
         }
-
         private void bttnRC2_Click(object sender, EventArgs e)
         {
             if (player == true)
@@ -148,7 +140,6 @@ namespace Tic_Tac_Toe
             player_turn++;
             results();
         }
-
         private void bttnRC3_Click(object sender, EventArgs e)
         {
             if (player == true)

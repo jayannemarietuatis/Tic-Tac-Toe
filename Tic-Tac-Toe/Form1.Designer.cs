@@ -45,7 +45,7 @@
             // 
             this.bttnRA1.BackColor = System.Drawing.Color.CornflowerBlue;
             this.bttnRA1.Font = new System.Drawing.Font("Cascadia Code", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bttnRA1.Location = new System.Drawing.Point(109, 131);
+            this.bttnRA1.Location = new System.Drawing.Point(90, 116);
             this.bttnRA1.Name = "bttnRA1";
             this.bttnRA1.Size = new System.Drawing.Size(94, 89);
             this.bttnRA1.TabIndex = 0;
@@ -56,7 +56,7 @@
             // 
             this.bttnRA2.BackColor = System.Drawing.Color.CornflowerBlue;
             this.bttnRA2.Font = new System.Drawing.Font("Cascadia Code", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bttnRA2.Location = new System.Drawing.Point(109, 226);
+            this.bttnRA2.Location = new System.Drawing.Point(90, 211);
             this.bttnRA2.Name = "bttnRA2";
             this.bttnRA2.Size = new System.Drawing.Size(94, 89);
             this.bttnRA2.TabIndex = 1;
@@ -67,7 +67,7 @@
             // 
             this.bttnRA3.BackColor = System.Drawing.Color.CornflowerBlue;
             this.bttnRA3.Font = new System.Drawing.Font("Cascadia Code", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bttnRA3.Location = new System.Drawing.Point(109, 321);
+            this.bttnRA3.Location = new System.Drawing.Point(90, 306);
             this.bttnRA3.Name = "bttnRA3";
             this.bttnRA3.Size = new System.Drawing.Size(94, 89);
             this.bttnRA3.TabIndex = 2;
@@ -78,7 +78,7 @@
             // 
             this.bttnRB3.BackColor = System.Drawing.Color.CornflowerBlue;
             this.bttnRB3.Font = new System.Drawing.Font("Cascadia Code", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bttnRB3.Location = new System.Drawing.Point(209, 321);
+            this.bttnRB3.Location = new System.Drawing.Point(190, 306);
             this.bttnRB3.Name = "bttnRB3";
             this.bttnRB3.Size = new System.Drawing.Size(94, 89);
             this.bttnRB3.TabIndex = 5;
@@ -89,7 +89,7 @@
             // 
             this.bttnRB2.BackColor = System.Drawing.Color.CornflowerBlue;
             this.bttnRB2.Font = new System.Drawing.Font("Cascadia Code", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bttnRB2.Location = new System.Drawing.Point(209, 226);
+            this.bttnRB2.Location = new System.Drawing.Point(190, 211);
             this.bttnRB2.Name = "bttnRB2";
             this.bttnRB2.Size = new System.Drawing.Size(94, 89);
             this.bttnRB2.TabIndex = 4;
@@ -100,7 +100,7 @@
             // 
             this.bttnRB1.BackColor = System.Drawing.Color.CornflowerBlue;
             this.bttnRB1.Font = new System.Drawing.Font("Cascadia Code", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bttnRB1.Location = new System.Drawing.Point(209, 131);
+            this.bttnRB1.Location = new System.Drawing.Point(190, 116);
             this.bttnRB1.Name = "bttnRB1";
             this.bttnRB1.Size = new System.Drawing.Size(94, 89);
             this.bttnRB1.TabIndex = 3;
@@ -111,7 +111,7 @@
             // 
             this.bttnRC3.BackColor = System.Drawing.Color.CornflowerBlue;
             this.bttnRC3.Font = new System.Drawing.Font("Cascadia Code", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bttnRC3.Location = new System.Drawing.Point(309, 321);
+            this.bttnRC3.Location = new System.Drawing.Point(290, 306);
             this.bttnRC3.Name = "bttnRC3";
             this.bttnRC3.Size = new System.Drawing.Size(94, 89);
             this.bttnRC3.TabIndex = 8;
@@ -122,7 +122,7 @@
             // 
             this.bttnRC2.BackColor = System.Drawing.Color.CornflowerBlue;
             this.bttnRC2.Font = new System.Drawing.Font("Cascadia Code", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bttnRC2.Location = new System.Drawing.Point(309, 226);
+            this.bttnRC2.Location = new System.Drawing.Point(290, 211);
             this.bttnRC2.Name = "bttnRC2";
             this.bttnRC2.Size = new System.Drawing.Size(94, 89);
             this.bttnRC2.TabIndex = 7;
@@ -133,7 +133,7 @@
             // 
             this.bttnRC1.BackColor = System.Drawing.Color.CornflowerBlue;
             this.bttnRC1.Font = new System.Drawing.Font("Cascadia Code", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.bttnRC1.Location = new System.Drawing.Point(309, 131);
+            this.bttnRC1.Location = new System.Drawing.Point(290, 116);
             this.bttnRC1.Name = "bttnRC1";
             this.bttnRC1.Size = new System.Drawing.Size(94, 89);
             this.bttnRC1.TabIndex = 6;
@@ -159,7 +159,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(552, 585);
+            this.ClientSize = new System.Drawing.Size(513, 512);
             this.Controls.Add(this.ExitBttn);
             this.Controls.Add(this.bttnRC3);
             this.Controls.Add(this.bttnRC2);
