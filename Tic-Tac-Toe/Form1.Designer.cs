@@ -126,6 +126,7 @@
             this.bttnRC2.Size = new System.Drawing.Size(94, 89);
             this.bttnRC2.TabIndex = 7;
             this.bttnRC2.UseVisualStyleBackColor = false;
+            this.bttnRC2.Click += new System.EventHandler(this.bttnRC2_Click);
             // 
             // bttnRC1
             // 
